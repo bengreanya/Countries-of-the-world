@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCountries } from '../../hooks/useCountries';
 import CountryCard from '../CountryCard/CountryCard.js';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 export default function Main() {
   const { countries, error } = useCountries();
